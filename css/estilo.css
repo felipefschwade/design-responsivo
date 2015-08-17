@@ -224,3 +224,11 @@ header {
     width: 50%;
     float: left;
 }
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.logo,
+.secao{
+    padding: 0 1%;
+}
