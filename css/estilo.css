@@ -20,7 +20,7 @@ header {
 	top: 0;
 	left: 0;
 	z-index: 10;
-
+    padding: 0.5em 0;
 	background: white;
 	width: 100%;
 }
@@ -245,4 +245,11 @@ img {
 }
 .menu-principal li {
     float: left;
+}
+
+.destaques {
+    margin-top: 1em;
+}
+.barra-nav {
+    margin: 0.4em 0;
 }
