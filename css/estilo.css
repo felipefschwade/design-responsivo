@@ -218,7 +218,7 @@ header {
 		}
 .secao {
     float: left;
-    width: 33.333%;
+    width: 100%;
 }
 .mini {
     width: 50%;
@@ -254,12 +254,18 @@ img {
     margin: 0.4em 0;
 }
 @media (min-width: 600px){
+    .secao{
+        width: 50%;
+    }
     html {
         font-size: 1.125em;
     }
+}
 @media (min-width: 1000px){
+    .secao{
+        width: 33%;
+    }
     html {
         font-size: 1.25em;
     }
-}
-}
+  }
