@@ -216,3 +216,7 @@ header {
 			background: #555;
 			margin-left: 1.5em;
 		}
+.secao {
+    float: left;
+    width: 33.333%;
+}
