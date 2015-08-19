@@ -281,7 +281,7 @@ img {
 
         position: fixed;
         z-index: 1;
-        top: 0;
+        top: 5S;
         left: -90%;
 
         transition: left 0.3s ease-out;
@@ -289,7 +289,18 @@ img {
         .menu-ativo .barra-nav {
             left: 0;
         }
+    .menu-ativo:after {
+        content: "";
+        display: block;
 
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+
+        background: rgba(0,0,0,0.4);
+    }
     .menu-principal li {
         padding: 1em 0;
         width: 100%;
@@ -300,4 +311,7 @@ img {
     .menu-fechar {
         display: none;
     }    
+}
+.esconde{
+    display: none;
 }
