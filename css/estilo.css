@@ -295,3 +295,9 @@ img {
         width: 100%;
     }
 }
+@media not all and (max-width: 600px) {
+    .menu-abrir,
+    .menu-fechar {
+        display: none;
+    }    
+}
