@@ -349,3 +349,6 @@ img {
         left: 0;
         text-indent: 0;
     }
+.logo img {
+    width: 200px;
+}
